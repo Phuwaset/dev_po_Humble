@@ -1,0 +1,40 @@
+[1.135s] Invoking command in '/home/ubuntu-humble/dev_po/build/bumperbot_py_examples': PYTHONPATH=/home/ubuntu-humble/dev_po/build/bumperbot_py_examples/prefix_override:/home/ubuntu-humble/dev_po/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu-humble/dev_po/build/bumperbot_py_examples/build
+[1.512s] running develop
+[1.512s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.512s]   warnings.warn(
+[1.514s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.514s]   warnings.warn(
+[1.766s] Removing /home/ubuntu-humble/dev_po/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot-py-examples.egg-link (link to .)
+[1.793s] Invoked command in '/home/ubuntu-humble/dev_po/build/bumperbot_py_examples' returned '0': PYTHONPATH=/home/ubuntu-humble/dev_po/build/bumperbot_py_examples/prefix_override:/home/ubuntu-humble/dev_po/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu-humble/dev_po/build/bumperbot_py_examples/build
+[1.795s] Invoking command in '/home/ubuntu-humble/dev_po/src/bumperbot_py_examples': PYTHONPATH=/home/ubuntu-humble/dev_po/build/bumperbot_py_examples/prefix_override:/home/ubuntu-humble/dev_po/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/ubuntu-humble/dev_po/build/bumperbot_py_examples/build install --record /home/ubuntu-humble/dev_po/build/bumperbot_py_examples/install.log --single-version-externally-managed
+[2.147s] running egg_info
+[2.148s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[2.149s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[2.149s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[2.149s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[2.149s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[2.152s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[2.153s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[2.153s] running build
+[2.154s] running build_py
+[2.154s] creating /home/ubuntu-humble/dev_po/build/bumperbot_py_examples/build
+[2.154s] creating /home/ubuntu-humble/dev_po/build/bumperbot_py_examples/build/lib
+[2.154s] creating /home/ubuntu-humble/dev_po/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[2.154s] copying bumperbot_py_examples/bumperbot_py_exampies.py -> /home/ubuntu-humble/dev_po/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[2.154s] copying bumperbot_py_examples/__init__.py -> /home/ubuntu-humble/dev_po/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[2.154s] running install
+[2.155s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.155s]   warnings.warn(
+[2.155s] running install_lib
+[2.156s] creating /home/ubuntu-humble/dev_po/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[2.156s] copying /home/ubuntu-humble/dev_po/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/bumperbot_py_exampies.py -> /home/ubuntu-humble/dev_po/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[2.156s] copying /home/ubuntu-humble/dev_po/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/ubuntu-humble/dev_po/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[2.156s] byte-compiling /home/ubuntu-humble/dev_po/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/bumperbot_py_exampies.py to bumperbot_py_exampies.cpython-310.pyc
+[2.157s] byte-compiling /home/ubuntu-humble/dev_po/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-310.pyc
+[2.157s] running install_data
+[2.158s] running install_egg_info
+[2.160s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/ubuntu-humble/dev_po/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[2.161s] running install_scripts
+[2.189s] Installing simple_publisher script to /home/ubuntu-humble/dev_po/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[2.190s] writing list of installed files to '/home/ubuntu-humble/dev_po/build/bumperbot_py_examples/install.log'
+[2.215s] Invoked command in '/home/ubuntu-humble/dev_po/src/bumperbot_py_examples' returned '0': PYTHONPATH=/home/ubuntu-humble/dev_po/build/bumperbot_py_examples/prefix_override:/home/ubuntu-humble/dev_po/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/ubuntu-humble/dev_po/build/bumperbot_py_examples/build install --record /home/ubuntu-humble/dev_po/build/bumperbot_py_examples/install.log --single-version-externally-managed
